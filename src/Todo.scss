@@ -1,0 +1,58 @@
+html{
+    width : 100vw;
+    height : 100vh;
+    background-color : plum;
+    display : flex;
+    justify-content: center;
+}
+
+html h1{
+    color : white;
+    font-size : 70px;
+    text-shadow: 5px 5px 5px rgb(221, 123, 221);
+}
+
+input{
+    width : 450px;
+    height : 40px;
+    font-size : 30px;
+    margin : 5px;
+    color : plum;
+    background-color : whitesmoke;
+    border : none;
+}
+
+input+button{
+    height : 40px;
+    border : none;
+    color : plum;
+    background-color: white;
+    position : relative;
+    bottom : 5px;
+    }
+
+button{
+    border : none;
+    margin : 1px;
+    color : white;
+    background-color: plum;
+    position : relative;
+}
+
+div.todoitem{
+    font-size : 1.5em;
+    background-color : white;
+    color : plum;
+    height : 70px;
+    width : 500px;
+    margin : 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgb(221, 123, 221);
+    position : relative;
+}
+
+div.todoitem:hover{
+    top:3px;
+    left:3px;
+    box-shadow:none;
+}
